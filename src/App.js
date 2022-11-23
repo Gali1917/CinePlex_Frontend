@@ -11,6 +11,7 @@ import PopularDetalle from "./pages/PeliculaDetalle/popularesDetalle";
 import InventarioPortada from "./pages/inventarioPortada/inventarioPage";
 import NuevaPortada from "./pages/inventarioPortada/nuevaPortada";
 import EditarPortada from "./pages/inventarioPortada/editarPortada";
+import Nosotros from "./pages/nosotros/nosotros";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <Route path="/nueva_pelicula" element={<Nuevo />} />
           <Route path="/editar_portada/:portada_id" element={<EditarPortada />} />
           <Route path="/nueva_portada" element={<NuevaPortada />} />
+          <Route path="/nosotros" element={<Nosotros />} />
         </Routes>
       </main>
       <footer>
@@ -63,7 +65,7 @@ function App() {
                 <Link className="link" to="/">Inicio</Link>
               </li>
               <li>
-                <Link className="link" to="/">Nosotros</Link>
+                <Link className="link" to="/nosotros">Nosotros</Link>
               </li>
               <li>
                 <Link className="link" to="/">Contactanos</Link>
