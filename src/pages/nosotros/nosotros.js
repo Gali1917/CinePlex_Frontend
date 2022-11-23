@@ -39,7 +39,7 @@ const Nosotros = () => {
                 </article>
                 <article id="article-equipo">
                     <div class="card-equipo">
-                        <img src="https://i.postimg.cc/hv4LhX23/anonymous.jpg" alt="Miembro del equipo"/>
+                        <img src="https://i.postimg.cc/D0YdXmXS/perfil-esneider.jpg" alt="Miembro del equipo"/>
                         <div class="equipo-descripcion">
                         </div>
                         <div class="text-descripcion">
