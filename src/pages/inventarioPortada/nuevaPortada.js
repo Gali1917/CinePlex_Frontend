@@ -21,7 +21,7 @@ const NuevaPortada = () => {
       precio: precio,
       imagen: imagen
     }
-    axios.post('/api/portada/nueva_portada', portada)
+    axios.post('https://backendmern-g7.azurewebsites.net/api/portada/nueva_portada', portada)
       .then(res => {
         // swal(res.data)
       })
