@@ -40,8 +40,13 @@ header img{
 }
 nav{
   background-color: black;
+  height: 100%;
+
   display: flex;
   flex-wrap: wrap;
+}
+nav a{
+  margin-bottom: 8px;
 }
 form{
   display: flex;
