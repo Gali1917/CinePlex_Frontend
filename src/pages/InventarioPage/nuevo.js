@@ -37,7 +37,7 @@ const Nuevo = () => {
       sinopsis: sinopsis,
       portada: portada
     }
-    axios.post('/api/peliculas/nueva_pelicula', peliculass)
+    axios.post('https://backendmern-g7.azurewebsites.net/api/peliculas/nueva_pelicula', peliculass)
       .then(res => {
         // swal(res.data)
       })
