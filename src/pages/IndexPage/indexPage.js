@@ -41,6 +41,9 @@ const IndexPage = () => {
               <h3>{eachPeliculas.nombre}</h3>
               <img src={eachPeliculas.imagen} />
               <h4>{eachPeliculas.hora_inicio}</h4>
+              <h4>{eachPeliculas.idioma}</h4>
+              <h4>{eachPeliculas.tarifa}</h4>
+
             </article>
           );
         })}
